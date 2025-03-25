@@ -26,7 +26,7 @@ function configure {
 function install {
     wait_for_service "${SITE}" db
     wait_for_service "${SITE}" broker
-    wait_for_service "${SITE}" fcrepo
+#    wait_for_service "${SITE}" fcrepo
     wait_for_service "${SITE}" fits
     wait_for_service "${SITE}" solr
     wait_for_service "${SITE}" triplestore
